@@ -1,1 +1,53 @@
-/* placeholder */
+:root {
+  --background-color: linear-gradient(to bottom, #edf5fa, #475059);
+  --card-color: linear-gradient(to right, #d9b77b, #ede18a, #d9b77b);
+  --button-color: linear-gradient(to right, #b96a2c, #e8d680, #b96a2c);
+}
+
+* {
+  font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  background-image: var(--background-color);
+}
+
+header {
+  background-color: #13293d;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+button {
+  border: black solid 1px;
+  background-image: var(--button-color);
+}
+
+#start-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  background-image: var(--card-color);
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#reset-button {
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+#bg-stretch {
+  visibility: hidden;
+  position: fixed;
+}
