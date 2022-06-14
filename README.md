@@ -1,1 +1,1 @@
-# wordle-bootleg
+# word-game
